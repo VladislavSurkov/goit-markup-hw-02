@@ -1,0 +1,86 @@
+:root{--primary-background-color:#FFFFFF ;
+    --content-background-color: #2F303A;
+    --team-background-color:#F5F4FA;
+    --primary-text-color:#757575;
+    --logo-color:#2196F3;
+    --header-logo-color:#000000;
+    --title-text-color: #212121;
+    --acent-color:#2196F3;
+    --hero-headline-color:#ffffff;
+    --footer-contact:rgba(255, 255, 255, 0.6);
+    --content-background-color:#2F303A;
+}
+body{font-family: 'Roboto','Raleway', sans-serif;
+ background:var(--primary-background-color) ;color: var(--primary-text-color); }
+/* header */
+.link{text-decoration: none;}
+.header-content{background: var(--primary-background-color);}
+/* ul{list-style: none;} */
+/* logo */
+.logo{font-family: 'Raleway';
+    
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em; color:var(--logo-color);}
+.header-studio{color:var(--header-logo-color);}
+/* menu nav */
+.header-asite{
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em; color: var(--title-text-color) ;} 
+.header-asite:hover,.asite-link:focus {color:var(--acent-color);}
+
+/* header contacts */
+.header-contact {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em; color: var(--primary-text-color);}
+.header-contact:hover,.header-contact:focus{color:var(--acent-color);}
+/* hero content */
+.hero-content{ 
+    background: var(--content-background-color);}
+.hero-headline{
+    color:var(--hero-headline-color) ;}
+.hero-button{cursor: pointer;}
+/* main content */
+.peculiarities{--peculiarities-color:rgba(0, 0, 0, 0);
+     color:var(--peculiarities-color);}
+.section-items .title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px; color:var(--title-text-color);}
+/* work */
+.section-headline{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color:var(--title-text-color);}
+/* team */
+.section-team{background: var(--team-background-color);}
+.section-team .title{color: var(--title-text-color);}
+
+/* footer */
+.page-footer{background: var(--content-background-color);}
+.footer-studio{color: var(--hero-headline-color);}
+
+.footer-content{color: var(--hero-headline-color);}
+.footer-content:hover,
+.footer-content:focus{color: var(--acent-color);}
+
+.footer-contact{color: var(--footer-contact);}
+.footer-contact:hover,
+.footer-contact:focus {color: var(--acent-color);}
+/* projects */
+.projects-list .title{color: var(--title-text-color);}
+
+/* button */
+.button{}
+
+.button.primary{background:var(--team-background-color);
+color: var(--acent-color);}
+
+.button.secondary{background: var(--acent-color);
+color: var(--hero-headline-color);}
