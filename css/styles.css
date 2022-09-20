@@ -77,7 +77,7 @@ body{font-family: 'Roboto', sans-serif;
     background: var(--team-background-color);} 
 
 /* peculiarities */
-.peculiarities{visibility: hidden;}
+.peculiarities, .caption{visibility: hidden;}
 .section-items .title{
     font-weight: 700;
     font-size: 14px;
@@ -120,6 +120,7 @@ body{font-family: 'Roboto', sans-serif;
 .footer-contact.address{
     color: var(--hero-headline-color);} 
 .footer-contact{
+    font-style: normal; 
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
